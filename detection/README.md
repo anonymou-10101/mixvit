@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 ### calc flops and params
 ```shell
-python ./tools/analysis_tools/get_flops.py ./path/to/config_file --shape 1120 896
+python ./tools/analysis_tools/get_flops.py ./configs/mixvit/mask_rcnn_mixvit_t_3x_coco.py --shape 1120 896
 ```
 
 ## Training
