@@ -79,7 +79,7 @@ python ./tools/analysis_tools/get_flops.py ./configs/mixvit/mask_rcnn_mixvit_t_3
 ## Training
 We train the model on a signle node with 2 GPUs (a batch size of 2 with gradient accumulation 4) by default. Start training with the config as :
 ```shell
-PORT=12345 bash ./tools/bash dist_train.sh ./configs/mixvit/mask_rcnn_mixvit_t_3x_coco.py 2
+PORT=12345 bash ./tools/dist_train.sh ./configs/mixvit/mask_rcnn_mixvit_t_3x_coco.py 2
 ```
 
 ## Evaluation
