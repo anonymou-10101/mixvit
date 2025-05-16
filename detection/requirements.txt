@@ -1,0 +1,7 @@
+setuptools
+wheel
+cython==0.29.33
+numpy==1.24.4
+yapf==0.31.0
+mmpycocotools
+pywavelets
