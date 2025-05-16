@@ -58,9 +58,6 @@ python cam_image.py --data-dir ./images
 | Cascade Mask R-CNN | MixViT-M | ImageNet-1K | 1120 x 896 | 126.7M |  885G | GIOU+MS 3x |  53.6   | 72.4 | 58.2 |  46.4    | 69.8 | 50.5 | [here](https://drive.google.com/file/d/1521Uu4TtgDfMaVdH2cIEtya_8L0Xu0YS/view?usp=drive_link) |
 
 
-### Analysis
-
-
 ### Video Prediction on Moving MNIST
 | Architecture |   Setting  | Params | FLOPs |  MSE  |  MAE  |  SSIM  |  PSNR | Download |
 | :----------: | :--------: | :----: | :---: | :---: | :---: | :----: | :---: | :------: |
