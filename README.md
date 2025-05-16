@@ -73,5 +73,4 @@ python cam_image.py --data-dir ./images
 - [MaxViT](https://github.com/google-research/maxvit)
 - [MogaNet](https://github.com/Westlake-AI/MogaNet) 
 - [MMDetection](https://github.com/open-mmlab/mmdetection)
-- [MMHuman3d](https://github.com/open-mmlab/mmhuman3d)
 - [OpenSTL](https://github.com/chengtan9907/OpenSTL)
