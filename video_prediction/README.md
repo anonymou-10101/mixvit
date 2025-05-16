@@ -42,5 +42,7 @@ python ./tools/non_dist_test.py -d mmnist -m SimVP --model_type mixvit \
     
 | Architecture |   Setting  | Params | FLOPs |  MSE  |  MAE  |  SSIM  |  PSNR | Download |
 | :----------: | :--------: | :----: | :---: | :---: | :---: | :----: | :---: | :------: |
-|   MixViT     |  200 epoch |  37.6M | 14.0G | 25.68 | 75.59 | 0.9317 | 38.38 |          |
-|   MixViT     | 2000 epoch |  37.6M | 14.0G | 16.37 | 53.57 | 0.9579 | 39.26 |          |
+|   MixViT     |  200 epoch |  37.6M | 14.0G | 25.68 | 75.59 | 0.9317 | 38.38 | [here](https://drive.google.com/file/d/1yAO4uUK1H9ir9BuR3GYb3roiuz2RZr54/view?usp=drive_link) |
+|   MixViT     | 2000 epoch |  37.6M | 14.0G | 16.37 | 53.57 | 0.9579 | 39.26 | [here](https://drive.google.com/file/d/1TZyKG5IfOzNArwJy6GJwdILiHZxSY0fW/view?usp=drive_link) |
+
+
