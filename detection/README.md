@@ -12,7 +12,7 @@ You can test this project either with Docker or through a local installation.
 ### Docker Installation (recommended)
 Clone this repository from GitHub and build the Docker image using the provided Dockerfile.
 ```shell
-git clone https://github.com/ MixViT && cd ./MixViT/Docker/Detection && docker build -t mixvit:det .
+git clone https://github.com/ MixViT && cd ./MixViT/detection/Docker && docker build -t mixvit:det .
 ```
 
 After building the Docker image, you can run the project. We highly recommend testing it on a GPU.
