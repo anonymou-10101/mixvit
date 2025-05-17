@@ -101,7 +101,7 @@ def append_models(args, device):
         models_layer.append(resnet.layer4[-1])
 
     if 'mixvit' in args.models:
-        mixvit = timm.create_model('mixvit_tiny_224', pretrained=True).to(device).eval()
+        mixvit = timm.create_model('mixvit_t_224', pretrained=True).to(device).eval()
         _models.append(mixvit)
         models_layer.append(mixvit.stages[3].blocks[-1])
         
