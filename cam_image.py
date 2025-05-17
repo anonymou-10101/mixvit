@@ -104,8 +104,8 @@ def append_models(args, device):
 
     if 'mixvit' in args.models:
         mixvit = timm.create_model('mixvit_t_224', pretrained=False).to(device).eval()
-        load_state_dict = torch.load(args.checkpoint, weights_only=False)['state_dict']
-        mixvit.load_state_dict(load_state_dict)
+        state_dict = torch.load(args.checkpoint, weights_only=False)['state_dict']
+        mixvit.load_state_dict(state_dict)
         _models.append(mixvit)
         models_layer.append(mixvit.stages[3].blocks[-1])
         
