@@ -39,6 +39,8 @@ parser.add_argument('--img-size', default=224, type=int,
                     help='size of input image size (default: 224)')
 parser.add_argument('-j', '--workers', default=4, type=int,
                     help='number of data loading workers (default: 4)')
+parser.add_argument('--checkpoint', metavar='checkpoint_path',
+                    help='path to checkpoint')
 
 def build_transform(is_training, input_size=(3, 224, 224), interpolation='bilinear', mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225), crop_pct=0.9):
     transform = create_transform(
@@ -101,7 +103,9 @@ def append_models(args, device):
         models_layer.append(resnet.layer4[-1])
 
     if 'mixvit' in args.models:
-        mixvit = timm.create_model('mixvit_t_224', pretrained=True).to(device).eval()
+        mixvit = timm.create_model('mixvit_t_224', pretrained=False).to(device).eval()
+        load_state_dict = torch.load(args.checkpoint, weights_only=False)['state_dict']
+        mixvit.load_state_dict(load_state_dict)
         _models.append(mixvit)
         models_layer.append(mixvit.stages[3].blocks[-1])
         
