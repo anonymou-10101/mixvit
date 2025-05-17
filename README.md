@@ -42,7 +42,7 @@ python get_flops.py --model mixvit_t_224  --img-size 224
 
 The code to visuallize Grad-CAM activation maps
 ```shell
-python cam_image.py --data-dir ./images 
+python cam_image.py --data-dir ./images --checkpoint /path/to/checkpoint
 ```
 ![cam_image](./fig2.png)
 
