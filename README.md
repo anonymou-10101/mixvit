@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ### Anaylysis 
 The code to validate accuracy of MixViT.
 ```shell
-python validate.py /path/to/imagenet-1k --model mixvit_t_224 --crop-pct 0.95 --checkpoint /path/to/checkpoint --img-size 224
+python validate.py /path/to/imagenet-1k --model mixvit_t_224 --checkpoint /path/to/checkpoint --img-size 224
 ```
 
 The code to count params and flops of MixViT variants
