@@ -27,7 +27,7 @@ pip install -r requirements.txt
 | MixViT-M  |   224x224  |    69.7    |   12.4    |   85.3%   | [here](https://drive.google.com/file/d/16nwhpTxG_16SVYHyJNHMO4oeUZ8QDLun/view?usp=drive_link) |
 | MixViT-M  |   384x384  |    69.7    |   37.8    |   86.2%   | [here](https://drive.google.com/file/d/19RTQ21KJ316ROlx-txfAqf67lQNdFCjj/view?usp=drive_link) |
 | MixViT-B  |   224x224  |   100.0    |   17.0    |   85.5%   | [here](https://drive.google.com/file/d/1N9I-3_Kjbgx3Az5bIgwdDnjK0FIISh1S/view?usp=sharing)    |
-| MixViT-B  |   256x256  |   100.0    |   22.2    |   85.7%   | [here](https://drive.google.com/file/d/1AP_svEW7DSVxkHickuBvScIFYOFrSAwy/view?usp=sharing)    |
+| MixViT-B  |   256x256  |   100.0    |   22.2    |   85.7%   | [here](https://drive.google.com/file/d/1sGRFU1SAVIvcyCR0-7io1spqUQe5lUGq/view?usp=sharing)    |
 | MixViT-B  |   384x384  |   100.0    |   51.7    |   86.3%   | |
 
 ### Anaylysis 
