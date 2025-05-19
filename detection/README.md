@@ -79,13 +79,13 @@ python ./tools/analysis_tools/get_flops.py ./configs/mixvit/mask_rcnn_mixvit_t_3
 ## Training
 Start training with the config as :
 ```shell
-PORT=12345 bash ./tools/dist_train.sh ./configs/mixvit/mask_rcnn_mixvit_t_3x_coco.py num_of_gpus
+bash ./tools/dist_train.sh ./configs/mixvit/mask_rcnn_mixvit_t_3x_coco.py num_of_gpus
 ```
 
 ## Evaluation
 To evalute the trained model, run:
 ```shell
-PORT=12345 bash ./tools/dist_test.sh ./configs/mixvit/mask_rcnn_mixvit_t_3x_coco.py /path/to/checkpoint num_of_gpus --out results.pkl --eval bbox segm
+bash ./tools/dist_test.sh ./configs/mixvit/mask_rcnn_mixvit_t_3x_coco.py /path/to/checkpoint num_of_gpus --out results.pkl --eval bbox segm
 ```
 
 ## Acknowledgment
