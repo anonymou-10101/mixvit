@@ -18,7 +18,7 @@ pip install -r requirements.txt
 |   Model   | Resolution | Params (M) | Flops (G) | Top-1 Acc | Download |
 | :-------: | :--------: | :--------: | :-------: | :-------: | :------: |
 | MixViT-P1 |   224x224  |     5.0    |    1.04   |   79.3%   |          |
-| MixViT-P2 |   224x224  |     6.0    |    1.35   |   80.5%   |          |
+| MixViT-P2 |   224x224  |     6.0    |    1.35   |   80.5%   | [here](https://drive.google.com/file/d/1O11PYA3KVq-k9loP1DOGmZH0hta3bRdc/view?usp=sharing)    |
 | MixViT-N  |   224x224  |    10.6    |    1.97   |   82.2%   | [here](https://drive.google.com/file/d/12B2cATh5tiPz6Oh1Ww3ozv6Cf3ApDyCo/view?usp=sharing)    |
 | MixViT-T  |   224x224  |    23.3    |    4.6    |   84.1%   | [here](https://drive.google.com/file/d/1i5XdYL0hav53-Avq3pzkEyuuL3QwpcLm/view?usp=drive_link) |
 | MixViT-T  |   384x384  |    23.3    |   14.1    |   85.3%   | [here](https://drive.google.com/file/d/11_uCAT4oq7d-cg4B-A73UT1MSwypo9k9/view?usp=drive_link) |
@@ -26,8 +26,8 @@ pip install -r requirements.txt
 | MixViT-S  |   384x384  |    41.8    |   22.9    |   85.8%   | [here](https://drive.google.com/file/d/1RXZ3_oSDCvaG5KadN5HcDWT65mLU5m4o/view?usp=drive_link) |
 | MixViT-M  |   224x224  |    69.7    |   12.4    |   85.3%   | [here](https://drive.google.com/file/d/16nwhpTxG_16SVYHyJNHMO4oeUZ8QDLun/view?usp=drive_link) |
 | MixViT-M  |   384x384  |    69.7    |   37.8    |   86.2%   | [here](https://drive.google.com/file/d/19RTQ21KJ316ROlx-txfAqf67lQNdFCjj/view?usp=drive_link) |
-| MixViT-B  |   224x224  |   100.0    |   17.0    |   85.5%   | [here](https://drive.google.com/file/d/1N9I-3_Kjbgx3Az5bIgwdDnjK0FIISh1S/view?usp=sharing) |
-| MixViT-B  |   256x256  |   100.0    |   22.2    |   85.7%   | [here](https://drive.google.com/file/d/1AP_svEW7DSVxkHickuBvScIFYOFrSAwy/view?usp=sharing) |
+| MixViT-B  |   224x224  |   100.0    |   17.0    |   85.5%   | [here](https://drive.google.com/file/d/1N9I-3_Kjbgx3Az5bIgwdDnjK0FIISh1S/view?usp=sharing)    |
+| MixViT-B  |   256x256  |   100.0    |   22.2    |   85.7%   | [here](https://drive.google.com/file/d/1AP_svEW7DSVxkHickuBvScIFYOFrSAwy/view?usp=sharing)    |
 | MixViT-B  |   384x384  |   100.0    |   51.7    |   86.3%   | |
 
 ### Anaylysis 
