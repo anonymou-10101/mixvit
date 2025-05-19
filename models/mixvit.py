@@ -1106,7 +1106,7 @@ default_cfgs = generate_default_cfgs({
     
     'mixvit_n_224.in1k': _cfg(
         file='/path/to/checkpoint', 
-        mean=IMAGENET_DEFAULT_MEAN, std=IMAGENET_DEFAULT_STD),
+        mean=IMAGENET_DEFAULT_MEAN, std=IMAGENET_DEFAULT_STD), crop_pct=0.875,
     
     'mixvit_t_224.in1k': _cfg(
         file='/path/to/checkpoint', 
