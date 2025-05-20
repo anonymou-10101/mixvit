@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 |   Model   | Resolution | Params (M) | Flops (G) | Top-1 Acc | Download |
 | :-------: | :--------: | :--------: | :-------: | :-------: | :------: |
-| MixViT-P1 |   224x224  |     5.0    |    1.04   |   79.3%   |          |
+| MixViT-P1 |   224x224  |     5.0    |    1.04   |   79.3%   | [here](https://drive.google.com/file/d/1qy1fOaXMjIBR1brwZ39x26c7H9hWdKAl/view?usp=sharing) |
 | MixViT-P2 |   224x224  |     6.0    |    1.35   |   80.5%   | [here](https://drive.google.com/file/d/1O11PYA3KVq-k9loP1DOGmZH0hta3bRdc/view?usp=sharing)    |
 | MixViT-N  |   224x224  |    10.6    |    1.97   |   82.2%   | [here](https://drive.google.com/file/d/12B2cATh5tiPz6Oh1Ww3ozv6Cf3ApDyCo/view?usp=sharing)    |
 | MixViT-T  |   224x224  |    23.3    |    4.6    |   84.1%   | [here](https://drive.google.com/file/d/1i5XdYL0hav53-Avq3pzkEyuuL3QwpcLm/view?usp=drive_link) |
