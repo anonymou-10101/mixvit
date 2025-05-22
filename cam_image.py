@@ -32,8 +32,8 @@ parser = argparse.ArgumentParser(description='MixViT Grad Cam Visuallization')
 parser.add_argument('--data-dir', metavar='DIR', const=None,
                     help='path to dataset')
 parser.add_argument('--models', nargs='+',
-                    choices=['mixvit', 'moganet', 'resnet50', 'maxvit', 'davit'],
-                    default=['mixvit', 'moganet', 'resnet50', 'maxvit', 'davit'],
+                    choices=['mixvit', 'resnet50', 'maxvit', 'davit'],
+                    default=['mixvit', 'resnet50', 'maxvit', 'davit'],
                     help="type models")
 parser.add_argument('--img-size', default=224, type=int,
                     help='size of input image size (default: 224)')
@@ -108,11 +108,6 @@ def append_models(args, device):
         mixvit.load_state_dict(state_dict)
         _models.append(mixvit)
         models_layer.append(mixvit.stages[3].blocks[-1])
-        
-    if 'moganet' in args.models:
-        moganet = timm.create_model('moganet_small', pretrained=True).to(device).eval()
-        _models.append(moganet)
-        models_layer.append(moganet.norm4)
         
     if 'davit' in args.models:
         davit = timm.create_model('davit_tiny', pretrained=True).to(device).eval()
