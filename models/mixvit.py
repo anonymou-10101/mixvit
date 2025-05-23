@@ -1280,7 +1280,7 @@ model_cfgs = dict(
                 grid_size=(8, 8),
             ),
         ),
-        mixvit_m_384=MixVitCfg(
+        mixvit_b_384=MixVitCfg(
             embed_dim=(96, 192, 384, 768),
             depths=(2, 2, 6, 2),
             num_heads=(4, 8, 16, 32),
