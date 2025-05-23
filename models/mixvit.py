@@ -1139,6 +1139,10 @@ default_cfgs = generate_default_cfgs({
         file='/path/to/checkpoint', 
         input_size=(3, 256, 256), pool_size=(8, 8),
         mean=IMAGENET_DEFAULT_MEAN, std=IMAGENET_DEFAULT_STD),
+    'mixvit_b_384.in1k': _cfg(
+        file='/path/to/checkpoint', 
+        input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=0.95, crop_mode='squash'
+    ),
 })
 
 model_cfgs = dict(
@@ -1276,6 +1280,21 @@ model_cfgs = dict(
                 grid_size=(8, 8),
             ),
         ),
+        mixvit_m_384=MixVitCfg(
+            embed_dim=(96, 192, 384, 768),
+            depths=(2, 2, 6, 2),
+            num_heads=(4, 8, 16, 32),
+            mlp_ratio=4.,
+            block_type=('M',) * 4,
+            stem_width=64,
+            stem_bias=True,
+            head_hidden_size=768,
+            transformer_cfg=MixVitTransformerCfg(
+                dim_head = 32,
+                window_size=(12, 12),
+                grid_size=(12, 12),
+            ),
+        ),
     )
 
 
@@ -1319,6 +1338,9 @@ if classification:
     @register_model
     def mixvit_b_256(pretrained=False, **kwargs) -> MixVit:
         return _create_mixvit('mixvit_b_256', 'mixvit_b_256', pretrained=pretrained, **kwargs)
+    @register_model
+    def mixvit_b_384(pretrained=False, **kwargs) -> MixVit:
+        return _create_mixvit('mixvit_b_384', 'mixvit_b_384', pretrained=pretrained, **kwargs)
     
 else:
     if mmpose:
