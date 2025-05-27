@@ -6,11 +6,11 @@ DATA_PATH=$1
 GPUS=${2:-4}
 
 if [ ${GPUS} -eq 2 ]; then
-    GRAD_ACCUM_STEPS=4
+    GRAD_ACCUM_STEPS=8
 elif [ ${GPUS} -eq 4 ]; then
-    GRAD_ACCUM_STEPS=2
+    GRAD_ACCUM_STEPS=4
 elif [ ${GPUS} -eq 8 ]; then
-    GRAD_ACCUM_STEPS=1
+    GRAD_ACCUM_STEPS=2
 else
     GRAD_ACCUM_STEPS=16
 fi
