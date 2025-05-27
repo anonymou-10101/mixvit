@@ -5,7 +5,6 @@ set -x
 DATA_PATH=$1
 GPUS=${2:-4}
 
-
 if [ ${GPUS} -eq 2 ]; then
     GRAD_ACCUM_STEPS=8
 elif [ ${GPUS} -eq 4 ]; then
