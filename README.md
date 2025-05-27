@@ -34,6 +34,12 @@ pip install -r requirements.txt
 | MixViT-M  |   384x384  |    69.7    |   37.8    |   86.2%   | [here](https://drive.google.com/file/d/1XC7FJmMY4nNF-_4lu7CpG_WqHMPyqVGW/view?usp=sharing) |
 | MixViT-B  |   384x384  |   100.0    |   51.7    |   86.3%   | [here](https://drive.google.com/file/d/1bZCufXSoQIChbCCo4W9ZAmfMOT3cx3z9/view?usp=sharing) |
 
+### Train
+The code to train MixViT on ImageNet-1k.
+```shell
+bash ./scripts/mixvit_t_224_1k.sh /path/to/imagenet-1k num_gpus
+```
+
 ### Anaylysis 
 The code to validate accuracy of MixViT.
 ```shell
