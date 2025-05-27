@@ -12,7 +12,7 @@ elif [ ${GPUS} -eq 4 ]; then
 elif [ ${GPUS} -eq 8 ]; then
     GRAD_ACCUM_STEPS=1
 else
-    GRAD_ACCUM_STEPS=16
+    GRAD_ACCUM_STEPS=8
 fi
 
 torchrun --nproc_per_node=${GPUS} --master_addr=127.0.0.1 --master_port=23456 train.py ${DATA_PATH} \
