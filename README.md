@@ -77,7 +77,7 @@ python cam_image.py --data-dir ./images --checkpoint /path/to/checkpoint
 
 
 ## Contributing
-- [pytorch-image-modes (timm)](https://github.com/huggingface/pytorch-image-models)
+- [pytorch-image-models (timm)](https://github.com/huggingface/pytorch-image-models)
 - [MaxViT](https://github.com/google-research/maxvit)
 - [MogaNet](https://github.com/Westlake-AI/MogaNet) 
 - [MMDetection](https://github.com/open-mmlab/mmdetection)
