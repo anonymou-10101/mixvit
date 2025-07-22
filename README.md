@@ -20,8 +20,8 @@ pip install -r requirements.txt
 | MixViT-P1 |   224x224  |     5.0    |    1.04   |   79.3%   | [here](https://drive.google.com/file/d/1qy1fOaXMjIBR1brwZ39x26c7H9hWdKAl/view?usp=sharing) |
 | MixViT-P2 |   224x224  |     6.0    |    1.35   |   80.5%   | [here](https://drive.google.com/file/d/1O11PYA3KVq-k9loP1DOGmZH0hta3bRdc/view?usp=sharing)    |
 | MixViT-N  |   224x224  |    10.6    |    1.97   |   82.2%   | [here](https://drive.google.com/file/d/12B2cATh5tiPz6Oh1Ww3ozv6Cf3ApDyCo/view?usp=sharing)    |
-| MixViT-T  |   224x224  |    23.3    |    4.6    |   84.1%   | [here](https://drive.google.com/file/d/1i5XdYL0hav53-Avq3pzkEyuuL3QwpcLm/view?usp=drive_link) |
-| MixViT-S  |   224x224  |    41.7    |    7.5    |   84.7%   | [here](https://drive.google.com/file/d/1H7jGSuBTLOiKPABwzq1VtEq_OPovnhYj/view?usp=drive_link) |
+| MixViT-T  |   224x224  |    23.3    |    4.6    |   84.1%   | [here](https://drive.google.com/file/d/1i5XdYL0hav53-Avq3pzkEyuuL3QwpcLm/view?usp=sharing) |
+| MixViT-S  |   224x224  |    41.7    |    7.5    |   84.7%   | [here](https://drive.google.com/file/d/1H7jGSuBTLOiKPABwzq1VtEq_OPovnhYj/view?usp=sharing) |
 | MixViT-M  |   224x224  |    69.7    |   12.4    |   85.3%   | [here](https://drive.google.com/file/d/1y9LDTL8anAEqVBqnZvFaJMtOw3z8LRpz/view?usp=sharing) |
 | MixViT-B  |   224x224  |   100.0    |   17.0    |   85.5%   | [here](https://drive.google.com/file/d/1bhsWi7GpP1p7off83FOPFi8_492EbzT3/view?usp=sharing)    |
 | MixViT-B  |   256x256  |   100.0    |   22.2    |   85.7%   | [here](https://drive.google.com/file/d/1sGRFU1SAVIvcyCR0-7io1spqUQe5lUGq/view?usp=sharing)    |
